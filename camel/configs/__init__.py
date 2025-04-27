@@ -42,6 +42,7 @@ from .sglang_config import SGLANG_API_PARAMS, SGLangConfig
 from .siliconflow_config import SILICONFLOW_API_PARAMS, SiliconFlowConfig
 from .togetherai_config import TOGETHERAI_API_PARAMS, TogetherAIConfig
 from .vllm_config import VLLM_API_PARAMS, VLLMConfig
+from .watsonx_config import WATSONX_API_PARAMS, WatsonXConfig
 from .yi_config import YI_API_PARAMS, YiConfig
 from .zhipuai_config import ZHIPUAI_API_PARAMS, ZhipuAIConfig
 
@@ -97,6 +98,8 @@ __all__ = [
     'MODELSCOPE_API_PARAMS',
     'SiliconFlowConfig',
     'SILICONFLOW_API_PARAMS',
+    'WatsonXConfig',
+    'WATSONX_API_PARAMS',
     'AIMLConfig',
     'AIML_API_PARAMS',
     'OpenRouterConfig',
