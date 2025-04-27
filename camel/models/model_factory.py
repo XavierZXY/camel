@@ -46,6 +46,7 @@ from camel.models.stub_model import StubModel
 from camel.models.togetherai_model import TogetherAIModel
 from camel.models.vllm_model import VLLMModel
 from camel.models.volcano_model import VolcanoModel
+from camel.models.watsonx_model import WatsonXModel
 from camel.models.yi_model import YiModel
 from camel.models.zhipuai_model import ZhipuAIModel
 from camel.types import ModelPlatformType, ModelType, UnifiedModelType
@@ -162,6 +163,8 @@ class ModelFactory:
             model_class = ModelScopeModel
         elif model_type == ModelType.STUB:
             model_class = StubModel
+        elif model_platform == ModelPlatformType.WATSONX:
+            model_class = WatsonXModel
 
         if model_class is None:
             raise ValueError(

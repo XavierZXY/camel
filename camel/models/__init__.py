@@ -47,6 +47,7 @@ from .stub_model import StubModel
 from .togetherai_model import TogetherAIModel
 from .vllm_model import VLLMModel
 from .volcano_model import VolcanoModel
+from .watsonx_model import WatsonXModel
 from .yi_model import YiModel
 from .zhipuai_model import ZhipuAIModel
 
