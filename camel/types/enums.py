@@ -268,9 +268,7 @@ class ModelType(UnifiedModelType, Enum):
     MODELSCOPE_QWEN_2_5_CODER_32B_INSTRUCT = "Qwen/Qwen2.5-Coder-32B-Instruct"
     MODELSCOPE_QWQ_32B = "Qwen/QwQ-32B"
     MODELSCOPE_QWQ_32B_PREVIEW = "Qwen/QwQ-32B-Preview"
-    MODELSCOPE_LLAMA_3_1_8B_INSTRUCT = (
-        "LLM-Research/Meta-Llama-3.1-8B-Instruct"
-    )
+    MODELSCOPE_LLAMA_3_1_8B_INSTRUCT = "LLM-Research/Meta-Llama-3.1-8B-Instruct"
     MODELSCOPE_LLAMA_3_1_70B_INSTRUCT = (
         "LLM-Research/Meta-Llama-3.1-70B-Instruct"
     )
@@ -280,6 +278,8 @@ class ModelType(UnifiedModelType, Enum):
     MODELSCOPE_LLAMA_3_3_70B_INSTRUCT = "LLM-Research/Llama-3.3-70B-Instruct"
     MODELSCOPE_MINISTRAL_8B_INSTRUCT = "mistralai/Ministral-8B-Instruct-2410"
     MODELSCOPE_DEEPSEEK_V3_0324 = "deepseek-ai/DeepSeek-V3-0324"
+
+    IBM_WATSONX_GRANITE_13B_CHAT_V2 = "ibm/granite-13b-chat-v2"
 
     def __str__(self):
         return self.value
